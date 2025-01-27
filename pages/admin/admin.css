@@ -1,0 +1,89 @@
+/* Genel Ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9; /* Arka plan rengi */
+    color: #333;
+}
+
+/* Header Stili */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8b5e3c; /* Kafe temalı koyu kahverengi */
+    padding: 15px 25px;
+    color: #fff;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+/* Sayfa Düzeni */
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #c79a5d; /* Yan menü arka plan rengi */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    color: #f4e4d1;
+}
+
+/* Ana İçerik */
+.main-content {
+    flex: 1;
+    padding: 25px;
+    background-color: #ffffff; /* İçerik arka plan rengi */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.main-content h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.main-content p {
+    font-size: 16px;
+    color: #666;
+}

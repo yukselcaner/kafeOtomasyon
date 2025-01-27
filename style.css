@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #f4e3d7; /* Daha doğal bir arka plan rengi */
+    color: #333; /* Daha okunabilir metin rengi */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8b5e3c; /* Kafe temalı koyu kahverengi */
+    padding: 15px 25px;
+    color: #fff;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header-right a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    margin-top: 25px;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #c79a5d; /* Krem rengiyle uyumlu sıcak kahve tonu */
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 18px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    color: #f7e6d5; /* Hover rengini daha hafif krem yap */
+}
+
+.main-content {
+    flex: 1;
+    padding: 25px;
+    background-color: #f7f1e9;
+    border-radius: 8px;
+}
+
+.cafe-photo {
+    background-color: #dcd2c8; /* Kahve atmosferi için doğal bir ton */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cafe-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
